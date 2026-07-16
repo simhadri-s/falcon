@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@theme {
+  --color-falcon-navy: #1E3A5F;
+  --color-falcon-gold: #E8A020;
+}
+
+@layer components {
+  .admin-content {
+    color: #374151;
+  }
+
+  .admin-content > div {
+    min-height: 100%;
+    background: #ffffff !important;
+    border-radius: 0.5rem !important;
+    box-shadow: 0 1px 2px rgb(15 23 42 / 0.06) !important;
+    padding: 1.5rem !important;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .admin-content h1 {
+    font-size: 1.1rem !important;
+    line-height: 1.6rem !important;
+    font-weight: 500 !important;
+    color: #1f2937 !important;
+    letter-spacing: 0 !important;
+  }
+
+  .admin-content h2 {
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+    font-weight: 500 !important;
+    color: #1f2937 !important;
+    letter-spacing: 0 !important;
+  }
+
+  .admin-content h3 {
+    font-size: 0.95rem !important;
+    line-height: 1.4rem !important;
+    font-weight: 500 !important;
+    color: #1f2937 !important;
+    letter-spacing: 0 !important;
+  }
+
+  .admin-content p,
+  .admin-content span,
+  .admin-content td,
+  .admin-content label,
+  .admin-content input,
+  .admin-content select,
+  .admin-content textarea,
+  .admin-content button,
+  .admin-content a {
+    letter-spacing: 0 !important;
+  }
+
+  .admin-content input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+  .admin-content select,
+  .admin-content textarea {
+    border-color: #e5e7eb !important;
+    border-radius: 0.25rem !important;
+    background-color: #ffffff;
+    font-size: 0.85rem !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .admin-content input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):focus,
+  .admin-content select:focus,
+  .admin-content textarea:focus {
+    border-color: #60a5fa !important;
+    box-shadow: none !important;
+  }
+
+  .admin-content button,
+  .admin-content a {
+    transition-property: color, background-color, border-color, box-shadow, transform;
+    transition-duration: 150ms;
+  }
+
+  .admin-content button[class*="bg-[#E8A020]"],
+  .admin-content a[class*="bg-[#E8A020]"] {
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+  }
+
+  .admin-content button[class*="hover:bg-yellow"],
+  .admin-content a[class*="hover:bg-yellow"] {
+    background-color: #2563eb !important;
+  }
+
+  .admin-content button[class*="bg-[#1E3A5F]"],
+  .admin-content a[class*="bg-[#1E3A5F]"] {
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+  }
+
+  .admin-content thead,
+  .admin-content thead tr,
+  .admin-content thead th {
+    background: #ffffff !important;
+    color: #1f2937 !important;
+  }
+
+  .admin-content thead th {
+    border-bottom: 1px solid #f3f4f6 !important;
+    padding: 1rem !important;
+    font-size: 0.85rem !important;
+    font-weight: 500 !important;
+    white-space: nowrap;
+  }
+
+  .admin-content tbody td {
+    border-bottom: 1px solid #f3f4f6 !important;
+    padding: 1rem !important;
+    font-size: 0.85rem !important;
+    vertical-align: middle;
+  }
+
+  .admin-content tbody tr {
+    transition: background-color 150ms ease;
+  }
+
+  .admin-content tbody tr:hover {
+    background-color: #f9fafb !important;
+  }
+
+  .admin-content table {
+    border-collapse: collapse;
+  }
+
+  .admin-content .rounded-xl,
+  .admin-content .rounded-2xl,
+  .admin-content .rounded-3xl,
+  .admin-content [class*="rounded-["] {
+    border-radius: 0.5rem !important;
+  }
+
+  .admin-content .rounded-lg {
+    border-radius: 0.5rem !important;
+  }
+
+  .admin-content [class*="shadow-["] {
+    box-shadow: 0 1px 2px rgb(15 23 42 / 0.06) !important;
+  }
+
+  .admin-content .shadow,
+  .admin-content .shadow-md,
+  .admin-content .shadow-lg,
+  .admin-content .shadow-xl,
+  .admin-content .shadow-2xl {
+    box-shadow: 0 1px 2px rgb(15 23 42 / 0.06) !important;
+  }
+
+  .admin-content .fixed > div {
+    border-radius: 0.5rem !important;
+  }
+
+  .admin-content .fixed [class*="bg-[#1E3A5F]"][class*="text-white"][class*="border-b"],
+  .admin-content .fixed [class*="bg-[#1E3A5F]"][class*="text-white"][class*="justify-between"] {
+    background: #f9fafb !important;
+    color: #1f2937 !important;
+  }
+
+  .admin-content .fixed [class*="bg-[#1E3A5F]"][class*="text-white"] h2,
+  .admin-content .fixed [class*="bg-[#1E3A5F]"][class*="text-white"] button {
+    color: #1f2937 !important;
+  }
+}

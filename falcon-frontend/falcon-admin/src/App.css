@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button, 
+  a, 
+  select, 
+  input[type="checkbox"], 
+  input[type="radio"],
+  input[type="file"],
+  label {
+    @apply cursor-pointer;
+  }
+
+  button:disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+}
