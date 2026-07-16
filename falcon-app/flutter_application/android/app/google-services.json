@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "737877490595",
+    "project_id": "fir-falcon-app-13b57",
+    "storage_bucket": "fir-falcon-app-13b57.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737877490595:android:85803e073443104ddd3816",
+        "android_client_info": {
+          "package_name": "com.laserxperts.falcon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPEZVxAmNTo6fLcw4rqpckIF3wJh5uMrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
